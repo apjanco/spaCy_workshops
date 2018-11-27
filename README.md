@@ -1,5 +1,18 @@
 # spaCy_DH2019_workshop_proposal
 
+# Full contact information for all tutorial instructors or workshop leaders, including a one-paragraph statement summarizing their research interests and areas of expertise  
+- Andy Janco 
+   [please add]
+- David Lassner
+   [please add]
+- Sam Pouyt
+   [please add]
+
+# Title and a brief description of the content or topic and its relevance to the Digital Humanities community  
+
+# Description of the target audience and expected number of participants
+
+# A brief outline showing that the core content can be covered in a half-day (approximately 3 hours
 Unit I: Basic NLP with spaCy
    - installation and basic use
    - available models 
