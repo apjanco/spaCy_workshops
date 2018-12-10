@@ -1,8 +1,10 @@
-# spaCy_DH2019_workshop_proposal
+# spaCy_DH2019_workshop_proposal (<1500 words)
 
 ## Full contact information for all tutorial instructors or workshop leaders, including a one-paragraph statement summarizing their research interests and areas of expertise  
 - Andy Janco 
-   [please add]
+   -email: ajanco@haverford.edu
+   - Andy Janco is Digital Scholarship Librarian at Haverford College. He completed his Ph.D. at the University of Chicago and held post-docs at UChicago's Pozen Family Center for Human Rights and the Human Rights Institute at the University of Connecticut. Andy has a passion for inquiry-driven and community-engaged digital projects.  He is one of the lead developers working on a digital archive and research application for the Groupo de Apoyo Mutuo; Guatemala's oldest human rights organization. He also works on applied machine learning for Humanities and Social Science research.  
+
 - David Lassner
    [please add]
 - Sam Pouyt
@@ -10,7 +12,13 @@
 
 ## Title and a brief description of the content or topic and its relevance to the Digital Humanities community  
 
+Active Machine Learning with spaCy and Prodigy  
+
+This workshop will introduce DH scholars to spaCy and Prodigy. Developed by Matthew Hannibal and Ines Montari, these programs offer a suite of tools for applied natural language processing and computer vision. These tools make it possible for individual scholars to quickly train statistical models that can infer customized categories in named entity recognition tasks, match phrases, and visualize model performace.  While comparable to the more familiar research library NLTK, spaCy offers neural network models, integrated word vectors, dependency parsing and a variety of new features that are not available in other libraries. There is a clear need for scholars to benefit from recent advances in Deep Learning models that facilitate text and image recognition tasks on information that is relevant to scholarly research questions.     
+
 ## Description of the target audience and expected number of participants
+
+This workshop would appeal to a similar audience as attended DH2018's Distant Viewing and Word Vectors workshops.  Our participants have some familiarity with natural language processing and text analysis.  They may have heard of spaCy and are interested in learning how it differs from NLTK. 
 
 ## A brief outline showing that the core content can be covered in a half-day (approximately 3 hours
 Unit I: Basic NLP with spaCy
