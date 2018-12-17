@@ -14,14 +14,21 @@
 
 Active Machine Learning with spaCy and Prodigy  
 
-This workshop will introduce DH scholars to spaCy and Prodigy. Developed by Matthew Hannibal and Ines Montari, these programs offer a suite of tools for applied natural language processing and computer vision. These tools make it possible for individual scholars to quickly train statistical models that can infer customized categories in named entity recognition tasks, match phrases, and visualize model performace.  While comparable to the more familiar research library NLTK, spaCy offers neural network models, integrated word vectors, dependency parsing and a variety of new features that are not available in other libraries. There is a clear need for scholars to benefit from recent advances in Deep Learning models that facilitate text and image recognition tasks on information that is relevant to scholarly research questions.     
+This workshop will introduce DH scholars to spaCy and Prodigy. Developed by Matthew Hannibal and Ines Montari in Berlin, these programs offer a suite of tools for applied natural language processing and computer vision. These tools make it possible for individual scholars to quickly train statistical models that can infer customized categories in named entity recognition tasks, match phrases, and visualize model performace.  While comparable to the Natural Language Toolkit (NLTK), spaCy offers neural network models, integrated word vectors, dependency parsing and a variety of new features that are not available in other libraries. There is a clear need for scholars to benefit from recent advances in Deep Learning models that facilitate text and image recognition tasks on information that is relevant to scholarly research questions.     
 
 ## Description of the target audience and expected number of participants
 
-This workshop would appeal to a similar audience as attended DH2018's Distant Viewing and Word Vectors workshops.  Our participants have some familiarity with natural language processing and text analysis.  They may have heard of spaCy and are interested in learning how it differs from NLTK. 
+This workshop would appeal to a similar audience as attended DH2018's Distant Viewing and Word Vectors workshops.  Our participants will have some familiarity with natural language processing and text analysis. Participants will leave the workshop with the skills needed to install dependencies, train a model on categories that are relevant to their research and run inference on text and images. They may have heard of spaCy and are interested in learning how it differs from NLTK. 
 
-## A brief outline showing that the core content can be covered in a half-day (approximately 3 hours
-Unit I: Basic NLP with spaCy
+Each participant should bring a laptop computer to the workshop.  No other technology is required.  Links and instructions to install spaCy and Prodigy will be provided in advance of the workshop, but installation can also be completed in the first few minutes of the workshop.  
+
+## A brief outline showing that the core content can be covered in a half-day (approximately 3 hours)
+Our team of three instructors has divided the session into three fifty-minute sections with ten minute breaks in between sessions.  Each session is based on a common use case in the Digital Humanities.  
+
+In the first session, we will discuss installation and basic use of spaCy.  We will introduce exsiting models and available tasks for language and image analysis.  These include basic phrase matching, part of speech identificaiton (POS) and named entity extraction. We will demonstrate displacy, which is a highly useful tool to visualize and make sense of a model's results.      
+
+
+### Unit I: Basic NLP with spaCy
    - installation and basic use
    - available models 
    - displacy
@@ -29,12 +36,12 @@ Unit I: Basic NLP with spaCy
    - phrase matcher  
    - named entity recognition 
 
-Unit II: Advanced Topics with spaCy
+### Unit II: Advanced Topics with spaCy
    - rule-based matching
    ...
    - training new entities in spaCy
 
-Unit III: Prodigy 
+### Unit III: Prodigy 
    - active learning 
    - train new entities with Prodigy
    - train new categories
