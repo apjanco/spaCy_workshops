@@ -7,7 +7,7 @@ import random
 
 def config():
     return {
-        "debug": True
+        "debug": False
     }
 
 
@@ -21,7 +21,7 @@ def load_files(online_ressource, debug=True):
 
     namelist = zipped_ressource.namelist()
     if debug:
-        namelist = random.sample(namelist, 10)
+        namelist = random.sample(namelist, 50)
 
     for name in namelist:
         yield zipped_ressource.open(name).read()
@@ -43,7 +43,10 @@ def bi_loader():
     online_ressource = "https://www.berliner-intellektuelle.eu/berliner-intellektuelle-manuscripts.zip"
 
     for file_bytes in load_files(online_ressource, debug=config()["debug"]):
-        yield etree.XML(file_bytes)
+        try:
+            yield etree.XML(file_bytes)
+        except etree.XMLSyntaxError:
+            print("XMLSyntaxError")
 
 
 def extract_text_versions_from_etree(tree):
