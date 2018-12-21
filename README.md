@@ -6,7 +6,8 @@
    - Andy Janco is Digital Scholarship Librarian at Haverford College. He completed his Ph.D. at the University of Chicago and held post-docs at UChicago's Pozen Family Center for Human Rights and the Human Rights Institute at the University of Connecticut. Andy has a passion for inquiry-driven and community-engaged digital projects.  He is one of the lead developers working on a digital archive and research application for the Groupo de Apoyo Mutuo; Guatemala's oldest human rights organization. He also works on applied machine learning for Humanities and Social Science research.  
 
 - David Lassner
-   [please add]
+   -email: lassner@tu-berlin.de
+   - David Lassner graduated (M.Sc.) in computer science at TU Berlin in 2017, focussing on machine learning with a minor in german literary studies. Mr. David Lassner is now a PhD candidate researching machine learning in the digital humanities at the group of machine learning at TU Berlin, where his main focus is the (machine-driven) analysis of literature. 
 - Sam Pouyt
    [please add]
 
@@ -41,9 +42,25 @@ The third session will focus on Prodigy, which is an annotation tool used to tra
    - named entity recognition 
 
 #### Unit II: Advanced Topics with spaCy
-   - rule-based matching
-   ...
-   - training new entities in spaCy
+   (unit2/outline.ipynb)
+   TEI XML is the de facto standard for digital scholarly editions. In order to make spaCy usable in the context of DH scholarship we present the design principles for conversion and show code examples to load TEI XML into spaCy for two different corpora: The German Text Archive (deutschestextarchiv.de, DTA) and the Berlin Intellectuals (berliner-intellektuelle.eu, BI). In case of DTA, a basic parser for plain text is presented with meta data annotation on document level. The resulting spaCy document objects can be used for classification such as authorship attribution.  
+   In case of BI which encompasses genetic encoding, character-level annotation techniques for document variants are presented. The resulting document variants are presented using displacy to offer a highly interactive exploration tool for such genetic editions.  
+   Finally, the integration of word vectors in spaCy is presented by neglecting the built-in word vectors and loading pre-trained fasttext vectors. SpaCy itself currently (Dec. 2018) only encompasses seven languages and only word vectors for four of them. To emphasize the pursuit of language diversity within the DH community we show how to load and apply word vectors for 157 different languages into spacy.
+
+   1. Basic Pipeline from TEI to Spacy with annotations on document-level
+
+      1. load 50 TEI encoded XMLs from Deutsches Textarchiv
+      2. Extract plain text and author GND
+      3. Annotate each document with it's author id
+
+   2. A little more advanced Pipeline from TEI to Spacy annotations on character-level
+   (This is based on a Twitter discussion between Ines Montani and me: https://twitter.com/_inesmontani/status/920294329570267136)
+      1. load 50 TEI encoded XMLs from Berliner Intellektuelle
+      2. Extract initial and last version
+      3. annotate sub-tokens that have been added or deleted
+
+   3. Loading word vectors from fasttext
+   (This is based on https://github.com/explosion/spaCy/issues/1525)
 
 #### Unit III: Prodigy 
    - active learning 
