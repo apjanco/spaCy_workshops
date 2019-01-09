@@ -11,11 +11,31 @@ Each participant should bring a laptop computer to the workshop.  No other techn
 ### Brief outline
 Our team of three instructors has divided the session into three fifty-minute sessions with ten-minute breaks in between.  
 
-In the first session, we will discuss the installation and basic use of spaCy.  We will introduce existing models and available tasks for language and image analysis.  These include basic phrase matching, part of speech identification (POS) and named entity extraction. We will demonstrate displacy, which is a highly useful tool to visualize a model's results.  By the end of the session, participants will be able to load a model and use it to identify basic linguistic features, such as the base form of words (lemma), POS, syntactic dependency, word shape and stop words.In a small introductory project, participants will use spaCy code in a pre-written notebook to generate individualized vocabulary lists for language learning.  The script will take a text as input and output a list of lemmata.  These lemmata can then be compared against a second text to produce a list of vocabulary.    
+In the first session, we will discuss the installation and basic use of spaCy.  We will introduce existing models and available tasks for language analysis.  These include basic phrase matching, part of speech identification (POS) and named entity extraction. We will demonstrate displacy, which is a highly useful tool to visualize a model's results.  By the end of the session, participants will be able to load a model and use it to identify basic linguistic features, such as the base form of words (lemma), POS, syntactic dependency, word shape and stop words. In a small introductory project, participants will use spaCy code in a prepared notebook to generate individualized vocabulary lists for foreign language learning.  The script will take a text as input and output a list of lemmata.  These lemmata can then be compared against a second text to produce a customized vocabulary list for a reader to consult when reading the second text.    
 
-The second session will cover more advanced capabilities of spaCy.  We will discuss named entity recognition and rule-based matching. We will demonstrate how to use word vectors to measure semantic similarity. We will also show participants how to train new entities with spaCy.  We will also outline how new languages can be added to a spaCy model.  Participants will leave this session with ideas on how spaCy's customized models could be utilized in their own DH projects.   
+The second session will cover more advanced capabilities of spaCy. TEI XML is the de facto standard for digital scholarly editions. In order to make spaCy usable in the context of DH scholarship we present the design principles for conversion and show code examples to load TEI XML into spaCy for two different corpora: The German Text Archive (deutschestextarchiv.de, DTA) and the Berlin Intellectuals (berliner-intellektuelle.eu, BI). In case of DTA, a basic parser for plain text is presented with metadata annotation on document level. The resulting spaCy document objects can be used for classification such as authorship attribution.  
+   In the case of BI which encompasses genetic encoding, character-level annotation techniques for document variants are presented. The resulting document variants are presented using displacy to offer a highly interactive exploration tool for such genetic editions.  
+   Finally, the integration of word vectors in spaCy is presented by neglecting the built-in word vectors and loading pre-trained fasttext vectors. SpaCy itself currently (Dec. 2018) only encompasses seven languages and only word vectors for four of them. To emphasize the pursuit of language diversity within the DH community we show how to load and apply word vectors for 157 different languages into spacy.
 
-The third session will focus on Prodigy, which is an annotation tool used to train and evaluate language models.  Building on knowledge from the second session, participants will learn how to use Prodigy to radically reduce the time needed to train new categories and entities using active learning.  Participants will learn how to train custom language categories and entities using Prodigy. Participants will leave the session with a clear end-to-end workflow from initial text or images, to training, to the application of trained models in research.    
+   1. Basic Pipeline from TEI to Spacy with annotations on document-level
+
+      1. load 50 TEI encoded XMLs from Deutsches Textarchiv
+      2. Extract plain text and author GND
+      3. Annotate each document with its author id
+
+   2. A little more advanced Pipeline from TEI to Spacy annotations on character-level
+   (This is based on a Twitter discussion between Ines Montani and me: https://twitter.com/_inesmontani/status/920294329570267136)
+      1. load 50 TEI encoded XMLs from Berliner Intellektuelle
+      2. Extract initial and last version
+      3. annotate sub-tokens that have been added or deleted
+
+   3. Loading word vectors from fasttext
+   (This is based on https://github.com/explosion/spaCy/issues/1525)
+
+  
+The third session will focus on Prodigy, which is an annotation tool used to train and evaluate spaCy language models.  Building on knowledge from the second session, participants will learn how to use Prodigy to quickly train new categories and entities on existing language models.  To do this, Prodigy utilizes an approach called active learning where human input and automated learning are both used to update the model.  Prodigy sorts the model's uncertain results and asks for user input.  These annotations are then used to update the model on new categories or to improve accuracy with a specific task. In this session, participants will learn how to train custom language categories and entities using Prodigy. Participants will leave the session with a clear end-to-end workflow from initial text, to training, to the application of trained models.  Building on Unit II, we will use the new model to automatically update a TEI document with the new categories and data.    
+
+concluding paragraph... 
 
 ### Tutorial instructors  
 - Andrew Janco 
