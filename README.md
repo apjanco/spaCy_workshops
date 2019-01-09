@@ -12,9 +12,7 @@
     -email: sfbernstein@gmail.com
    - Dr. Seth Bernstein is currently Assistant Professor in History at the Higher School of Economics (Russian Federation).  He holds a PhD in history from the University of Toronto (Canada). His current project, "Return to the Motherland: The Repatriation of Soviet Citizens after World War II," explores the brutal but transnational wartime experience and troubled return of some five million members of the Soviet wartime diaspora. Seth's work also uses digital techniques like GIS and massive textual databases to extract and visualize data. He posts his digital history findings occasionally at [abstractualized.com](abstractualized.com).
 
-### Title and a brief description of the content or topic and its relevance to the Digital Humanities community  
-
-Introduction to natural language processing for DH research with spaCy - A fast and accessible library that integrates modern machine learning technology.
+### Introduction to natural language processing for DH research with spaCy - A fast and accessible library that integrates modern machine learning technology.
 
 This half-day workshop will introduce DH scholars to spaCy and Prodigy. Developed by Matthew Hannibal and Ines Montari in Berlin, these programs offer a suite of tools for applied natural language processing and computer vision. These tools make it possible for individual scholars to quickly train statistical models that can infer customized categories in named entity recognition tasks, match phrases, and visualize model performance.  While comparable to the Natural Language Toolkit (NLTK), spaCy offers neural network models, integrated word vectors, dependency parsing and a variety of new features that are not available in other libraries. Participants will learn simple ways to benefit from recent advances in machine learning and to utilize these advances in ways that are relevant to their scholarly research questions.     
 
