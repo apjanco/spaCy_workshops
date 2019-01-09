@@ -1,17 +1,4 @@
-# spaCy_DH2019_workshop_proposal (currently 500 of max 1500 words)
-
-### Tutorial instructors  
-- Andrew Janco 
-   -email: ajanco@haverford.edu
-   - Andrew Janco is the Digital Scholarship Librarian at Haverford College. He completed his Ph.D. at the University of Chicago. Andy has a passion for inquiry-driven and community-engaged digital projects.  He is the lead developer working on a digital archive and research application for the Groupo de Apoyo Mutuo, Guatemala's oldest human rights organization. He also works on applied machine learning for humanities and social science research.  
-
-- David Lassner
-   -email: lassner@tu-berlin.de
-   - David Lassner graduated (M.Sc.) in computer science at TU Berlin in 2017, focussing on machine learning with a minor in German literary studies. Mr. David Lassner is now a PhD candidate researching machine learning in the digital humanities at the group of machine learning at TU Berlin, where his main focus is the (machine-driven) analysis of literature.  
-
-- Seth Bernstein
-    -email: sfbernstein@gmail.com
-   - Dr. Seth Bernstein is currently Assistant Professor in History at the Higher School of Economics (Russian Federation).  He holds a PhD in history from the University of Toronto (Canada). His current project, "Return to the Motherland: The Repatriation of Soviet Citizens after World War II," explores the brutal but transnational wartime experience and troubled return of some five million members of the Soviet wartime diaspora. Seth's work also uses digital techniques like GIS and massive textual databases to extract and visualize data. He posts his digital history findings occasionally at [abstractualized.com](abstractualized.com).
+# Introduction to natural language processing for DH research with spaCy - A fast and accessible library that integrates modern machine learning technology 
 
 ### Introduction to natural language processing for DH research with spaCy - A fast and accessible library that integrates modern machine learning technology.
 
@@ -32,14 +19,20 @@ The second session will cover more advanced capabilities of spaCy.  We will disc
 
 The third session will focus on Prodigy, which is an annotation tool used to train and evaluate language models.  Building on knowledge from the second session, participants will learn how to use Prodigy to radically reduce the time needed to train new categories and entities using active learning.  Participants will learn how to train custom language categories and entities using Prodigy. Participants will leave the session with a clear end-to-end workflow from initial text or images, to training, to the application of trained models in research.    
 
+### Tutorial instructors  
+- Andrew Janco 
+   -email: ajanco@haverford.edu
+   - Andrew Janco is the Digital Scholarship Librarian at Haverford College. He completed his Ph.D. at the University of Chicago. Andy has a passion for inquiry-driven and community-engaged digital projects.  He is the lead developer working on a digital archive and research application for the Groupo de Apoyo Mutuo, Guatemala's oldest human rights organization. He also works on applied machine learning for humanities and social science research.  
 
-#### Unit I: Basic NLP with spaCy
-   - installation and basic use
-   - available models 
-   - displacy
-   - POS
-   - phrase matcher  
-   - named entity recognition 
+- David Lassner
+   -email: lassner@tu-berlin.de
+   - David Lassner graduated (M.Sc.) in computer science at TU Berlin in 2017, focussing on machine learning with a minor in German literary studies. Mr. David Lassner is now a PhD candidate researching machine learning in the digital humanities at the group of machine learning at TU Berlin, where his main focus is the (machine-driven) analysis of literature.  
+
+- Seth Bernstein
+    -email: sfbernstein@gmail.com
+   - Dr. Seth Bernstein is currently Assistant Professor in History at the Higher School of Economics (Russian Federation).  He holds a PhD in history from the University of Toronto (Canada). His current project, "Return to the Motherland: The Repatriation of Soviet Citizens after World War II," explores the brutal but transnational wartime experience and troubled return of some five million members of the Soviet wartime diaspora. Seth's work also uses digital techniques like GIS and massive textual databases to extract and visualize data. He posts his digital history findings occasionally at [abstractualized.com](abstractualized.com).
+
+---
 
 #### Unit II: Advanced Topics with spaCy
    (unit2/outline.ipynb)
@@ -61,13 +54,6 @@ The third session will focus on Prodigy, which is an annotation tool used to tra
 
    3. Loading word vectors from fasttext
    (This is based on https://github.com/explosion/spaCy/issues/1525)
-
-#### Unit III: Prodigy 
-   - active learning 
-   - train new entities with Prodigy
-   - train new categories
-   - computer vision 
-   - using custom models 
 
 
 ---
