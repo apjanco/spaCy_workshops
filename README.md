@@ -8,8 +8,9 @@
 - David Lassner
    -email: lassner@tu-berlin.de
    - David Lassner graduated (M.Sc.) in computer science at TU Berlin in 2017, focussing on machine learning with a minor in German literary studies. Mr. David Lassner is now a PhD candidate researching machine learning in the digital humanities at the group of machine learning at TU Berlin, where his main focus is the (machine-driven) analysis of literature. 
-- Sam Pouyt
-   [please add]
+- Seth Bernstein
+    -email: sfbernstein@gmail.com
+   - Dr. Seth Bernstein is currently Assistant Professor in History at the Higher School of Economics (Russian Federation).  He holds a PhD in history from the University of Toronto (Canada). His current project, "Return to the Motherland: The Repatriation of Soviet Citizens after World War II," explores the brutal but transnational wartime experience and troubled return of some five million members of the Soviet wartime diaspora. Seth's work also uses digital techniques like GIS and massive textual databases to extract and visualize data. He posts his digital history findings occasionally at [abstractualized.com](abstractualized.com).
 
 ### Title and a brief description of the content or topic and its relevance to the Digital Humanities community  
 
