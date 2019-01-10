@@ -28,14 +28,18 @@ Participants will leave the session with a clear end-to-end workflow from an ini
 Finally, there will be time for a discussion that should point out the strengths and weaknesses of spaCy and prodigy for DH scholarship that were experienced during the tutorial. This will hopefully lead to specific use-cases that the participants can identify in their scholarly work.
 
 ### Tutorial instructors  
-- Andrew Janco 
-   -email: ajanco@haverford.edu
-   - Andrew Janco is the Digital Scholarship Librarian at Haverford College. He completed his Ph.D. in History at the University of Chicago and MS in Information Science at the University of Illinois. Andy has a passion for inquiry-driven and community-engaged digital projects.  He is the lead developer of a digital archive and research application for the Groupo de Apoyo Mutuo, Guatemala's oldest human rights organization.  Andy has experience organizing two previous tutorials on spaCy and Prodigy.  He works on applied machine learning for research applications in humanities and social science scholarship.  
 
-- David Lassner
+- Unit I, Seth Bernstein
+    -email: sfbernstein@gmail.com
+   - Seth Bernstein is Assistant Professor of History at the Higher School of Economics (Russian Federation).  He holds a PhD in history from the University of Toronto (Canada). He is the author of Raised under Stalin: Young Communists and the Defense of Socialism (Cornell, 2017). His current project is "Return to the Motherland: The Repatriation of Soviet Citizens after World War II." Seth's work also uses digital techniques like GIS and massive textual databases to extract and visualize data.  
+
+- Unit II, David Lassner
    -email: lassner@tu-berlin.de
    - David Lassner graduated (M.Sc.) in computer science at TU Berlin in 2017, focussing on machine learning with a minor in German literary studies. Mr. David Lassner is now a PhD candidate researching machine learning in the digital humanities at the group of machine learning at TU Berlin, where his main focus is the (machine-driven) analysis of literature.  
 
-- Seth Bernstein
-    -email: sfbernstein@gmail.com
-   - Seth Bernstein is Assistant Professor of History at the Higher School of Economics (Russian Federation).  He holds a PhD in history from the University of Toronto (Canada). He is the author of Raised under Stalin: Young Communists and the Defense of Socialism (Cornell, 2017). His current project is "Return to the Motherland: The Repatriation of Soviet Citizens after World War II." Seth's work also uses digital techniques like GIS and massive textual databases to extract and visualize data.  
+- Unit III, Andrew Janco 
+   -email: ajanco@haverford.edu
+   - Andrew Janco is the Digital Scholarship Librarian at Haverford College. He completed his Ph.D. in History at the University of Chicago and MS in Information Science at the University of Illinois. Andy has a passion for inquiry-driven and community-engaged digital projects.  He is the lead developer of a digital archive and research application for the Groupo de Apoyo Mutuo, Guatemala's oldest human rights organization.  Andy has experience organizing two previous tutorials on spaCy and Prodigy.  He works on applied machine learning for research applications in humanities and social science scholarship.  
+
+
+
