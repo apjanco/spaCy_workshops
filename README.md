@@ -38,8 +38,7 @@ concluding paragraph...
 
 - Seth Bernstein
     -email: sfbernstein@gmail.com
-   - Dr. Seth Bernstein is currently Assistant Professor in History at the Higher School of Economics (Russian Federation).  He holds a PhD in history from the University of Toronto (Canada). His current project, "Return to the Motherland: The Repatriation of Soviet Citizens after World War II," explores the brutal but transnational wartime experience and the troubled return of some five million members of the Soviet wartime diaspora. Seth's work also uses digital techniques like GIS and massive textual databases to extract and visualize data. He posts his digital history findings occasionally at [abstractualized.com](abstractualized.com).
-
+   - Seth Bernstein is Assistant Professor of History at the Higher School of Economics (Russian Federation).  He holds a PhD in history from the University of Toronto (Canada). He is the author of Raised under Stalin: Young Communists and the Defense of Socialism (Cornell, 2017). His current project is "Return to the Motherland: The Repatriation of Soviet Citizens after World War II." Seth's work also uses digital techniques like GIS and massive textual databases to extract and visualize data.  
 ---
 
 Pre-Conference Workshops and Tutorials
