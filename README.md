@@ -2,6 +2,8 @@
 
 This half-day tutorial will introduce DH scholars to spaCy, a free and open-source library for text analysis. Developed by Matthew Hannibal and Ines Montari in Berlin, spaCy offers a suite of tools for applied natural language processing that are fast, practical and allow for quick experimentation and evaluation of language models. These tools make it possible for individual scholars to quickly train statistical models that can infer customized categories in named entity recognition tasks, match phrases, and visualize model performance.  While comparable to the Natural Language Toolkit (NLTK), spaCy offers neural network models, integrated word vectors, dependency parsing and a variety of new features that are not available elsewhere. Participants will learn how to use spaCy for common research tasks in the Digital Humanities and gain an understanding of how spaCy compares with other tools for natural language processing.     
 
+(TODO: a word about prodigy?)
+
 ### Target audience and expected number of participants
 
 This workshop would appeal to a similar audience as attended DH2018's Distant Viewing and Word Vectors workshops.  Our participants will have some existing familiarity with natural language processing and text analysis. Participants will leave the workshop with the skills needed to install dependencies, train a model on categories that are relevant to their research and run inference on a text. They may have heard of spaCy and are interested in learning how it differs from NLTK. 
@@ -11,29 +13,17 @@ Each participant should bring a laptop computer to the workshop.  No other techn
 ### Brief outline
 Our team of instructors has divided the session into three fifty-minute sessions with ten-minute breaks in between.  
 
-In the first session, we will discuss the installation and basic use of spaCy.  We will introduce existing models and available tasks for language analysis.  These include basic phrase matching, part of speech identification (POS) and named entity extraction. We will demonstrate displacy, which is a highly useful tool to visualize a model's results.  By the end of the session, participants will be able to load a model and use it to identify basic linguistic features, such as the base form of words (lemma), part of speech, syntactic dependency, word shape and stop words. In a small introductory project, participants will use spaCy code in a prepared notebook to generate individualized vocabulary lists for foreign language learning.  The script will take a text as input and output a list of lemmata.  These lemmata can then be compared against a second text to produce a customized vocabulary list for a reader to consult when reading the second text.    
+In the first session, we will discuss the installation and basic use of spaCy. We will introduce existing models and available tasks for language analysis. 
 
-The second session will cover more advanced capabilities of spaCy. TEI XML is the de facto standard for digital scholarly editions. In order to make spaCy usable in the context of DH scholarship we present the design principles for conversion and show code examples to load TEI XML into spaCy for two different corpora: The German Text Archive (deutschestextarchiv.de, DTA) and the Berlin Intellectuals (berliner-intellektuelle.eu, BI). In case of DTA, a basic parser for plain text is presented with metadata annotation on document level. The resulting spaCy document objects can be used for classification such as authorship attribution.  
-   In the case of BI which encompasses genetic encoding, character-level annotation techniques for document variants are presented. The resulting document variants are presented using displacy to offer a highly interactive exploration tool for such genetic editions.  
-   Finally, the integration of word vectors in spaCy is presented by neglecting the built-in word vectors and loading pre-trained fasttext vectors. SpaCy itself currently (Dec. 2018) only encompasses seven languages and only word vectors for four of them. To emphasize the pursuit of language diversity within the DH community we show how to load and apply word vectors for 157 different languages into spacy.
+These include basic phrase matching, part of speech identification (POS) and named entity extraction. We will demonstrate displacy, which is a highly useful tool to visualize a model's results.  
+By the end of the session, participants will be able to load a model and use it to identify basic linguistic features, such as the base form of words (lemma), part of speech, syntactic dependency, word shape and stop words. In a small introductory project, participants will use spaCy code in a prepared notebook to generate individualized vocabulary lists for foreign language learning.  The script will take a text as input and output a list of lemmata.  These lemmata can then be compared against a second text to produce a customized vocabulary list for a reader to consult when reading the second text.    
 
-   1. Basic Pipeline from TEI to Spacy with annotations on document-level
-
-      1. load 50 TEI encoded XMLs from Deutsches Textarchiv
-      2. Extract plain text and author GND
-      3. Annotate each document with its author id
-
-   2. A little more advanced Pipeline from TEI to Spacy annotations on character-level
-   (This is based on a Twitter discussion between Ines Montani and me: https://twitter.com/_inesmontani/status/920294329570267136)
-      1. load 50 TEI encoded XMLs from Berliner Intellektuelle
-      2. Extract initial and last version
-      3. annotate sub-tokens that have been added or deleted
-
-   3. Loading word vectors from fasttext
-   (This is based on https://github.com/explosion/spaCy/issues/1525)
-
+The second session will cover more advanced capabilities of spaCy. TEI XML is the de facto standard for digital scholarly editions. In order to make spaCy usable in the context of DH scholarship we present the design principles for conversion and show code examples to load TEI XML into spaCy for two different corpora: The German Text Archive (deutschestextarchiv.de, DTA) and the Berlin Intellectuals (berliner-intellektuelle.eu, BI). In case of DTA, a basic parser for plain text will be developed during the workshop with metadata annotation on document level. The resulting spaCy document objects will be used for classification such as authorship attribution. For this classification task, the Convolutional Neural Network of the spaCy TextCategorizer module will be used.  
+In the case of BI which encompasses genetic encoding, character-level annotation techniques for document variants are presented. The resulting document variants are presented using displacy to offer a highly interactive exploration tool for such genetic editions.  
+Finally, the integration of word vectors in spaCy is presented by neglecting the built-in word vectors and loading pre-trained fasttext vectors. SpaCy itself currently (Dec. 2018) only encompasses seven languages and only word vectors for four of them. To emphasize the pursuit of language diversity within the DH community we show how to load and apply word vectors for 157 different languages into spacy.
   
-The third session will focus on Prodigy, which is an annotation tool used to train and evaluate spaCy language models.  Building on knowledge from the second session, participants will learn how to use Prodigy to quickly train new categories and entities on existing language models.  Prodigy utilizes a method called active learning in which human input and automated learning are both used to update the model.  Prodigy sorts the model's uncertain results and strategically asks for user input.  These annotations are then used to update the model on new categories or to improve accuracy with a specific task. In this session, participants will learn how to train custom language categories and entities using Prodigy. Participants will leave the session with a clear end-to-end workflow from an initial text, to training, to the application of trained models.  Building on Unit II, we will use the new model to automatically update a TEI document with the new categories and data.    
+The third session will focus on Prodigy, which is an annotation tool used to train and evaluate spaCy language models.  Building on knowledge from the second session, participants will learn how to use Prodigy to quickly train new categories and entities on existing language models.  Prodigy utilizes a method called active learning in which human input and automated learning are both used to update the model.  Prodigy sorts the model's uncertain results and strategically asks for user input.  These annotations are then used to update the model on new categories or to improve accuracy with a specific task. In this session, participants will learn how to train custom language categories and entities using Prodigy. Participants will leave the session with a clear end-to-end workflow from an initial text, to training, to the application of trained models.  Building on Unit II, we will use the new model to automatically update a TEI document with the new categories and data.  
+Finally, there will be time for a discussion that should point out the stregths and weaknesses of spaCy and prodigy for DH scholarship that were experienced during the workshop. This will hopefully lead to specific use-cases that the participants can identify in their scholarly work.
 
 concluding paragraph... 
 
@@ -49,30 +39,6 @@ concluding paragraph...
 - Seth Bernstein
     -email: sfbernstein@gmail.com
    - Dr. Seth Bernstein is currently Assistant Professor in History at the Higher School of Economics (Russian Federation).  He holds a PhD in history from the University of Toronto (Canada). His current project, "Return to the Motherland: The Repatriation of Soviet Citizens after World War II," explores the brutal but transnational wartime experience and the troubled return of some five million members of the Soviet wartime diaspora. Seth's work also uses digital techniques like GIS and massive textual databases to extract and visualize data. He posts his digital history findings occasionally at [abstractualized.com](abstractualized.com).
-
----
-
-#### Unit II: Advanced Topics with spaCy
-   (unit2/outline.ipynb)
-   TEI XML is the de facto standard for digital scholarly editions. In order to make spaCy usable in the context of DH scholarship we present the design principles for conversion and show code examples to load TEI XML into spaCy for two different corpora: The German Text Archive (deutschestextarchiv.de, DTA) and the Berlin Intellectuals (berliner-intellektuelle.eu, BI). In case of DTA, a basic parser for plain text is presented with metadata annotation on document level. The resulting spaCy document objects can be used for classification such as authorship attribution.  
-   In the case of BI which encompasses genetic encoding, character-level annotation techniques for document variants are presented. The resulting document variants are presented using displacy to offer a highly interactive exploration tool for such genetic editions.  
-   Finally, the integration of word vectors in spaCy is presented by neglecting the built-in word vectors and loading pre-trained fasttext vectors. SpaCy itself currently (Dec. 2018) only encompasses seven languages and only word vectors for four of them. To emphasize the pursuit of language diversity within the DH community we show how to load and apply word vectors for 157 different languages into spacy.
-
-   1. Basic Pipeline from TEI to Spacy with annotations on document-level
-
-      1. load 50 TEI encoded XMLs from Deutsches Textarchiv
-      2. Extract plain text and author GND
-      3. Annotate each document with its author id
-
-   2. A little more advanced Pipeline from TEI to Spacy annotations on character-level
-   (This is based on a Twitter discussion between Ines Montani and me: https://twitter.com/_inesmontani/status/920294329570267136)
-      1. load 50 TEI encoded XMLs from Berliner Intellektuelle
-      2. Extract initial and last version
-      3. annotate sub-tokens that have been added or deleted
-
-   3. Loading word vectors from fasttext
-   (This is based on https://github.com/explosion/spaCy/issues/1525)
-
 
 ---
 
