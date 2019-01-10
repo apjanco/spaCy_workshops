@@ -4,9 +4,9 @@ This half-day tutorial will introduce DH scholars to spaCy, a free and open-sour
 
 ### Target audience and expected number of participants
 
-This tutorial would appeal to a similar audience as attended DH2018's distant viewing and word vectors workshops.  Given attendance at those workshops, we expect around 25-30 participants would register for our tutorial.  Our participants will likely have some existing familiarity with natural language processing, text analysis, and TEI. Participants will leave the tutorial with the skills needed to install dependencies, train a model on categories that are relevant to their research and run inference on a text. They may have heard of spaCy and are interested in learning how it differs from NLTK.   
+This tutorial would appeal to a similar audience as attended DH2018's distant viewing and word vectors workshops.  Given attendance at those workshops, we expect around 25-30 participants would register for our tutorial.  Our participants will probably have some existing familiarity with natural language processing, text analysis, and TEI. Participants will leave the tutorial with the skills needed to install dependencies, train a model on categories that are relevant to their research and run inference on a text. They may have heard of spaCy and are interested in learning how it differs from NLTK.   
 
-Our instructors come from a range of backgrounds in machine learning and literature, history, and information science. This diversity of perspectives and use cases of spaCy will appeal to a large DH audience and help participants to connect what they've learned with their own research.  
+Our instructors come from a range of backgrounds in machine learning, the humanities, and information science. This diversity of perspectives and use cases of spaCy will appeal to a large DH audience and help participants to connect what they've learned with their own research.  
 
 Each participant should bring a laptop computer to the tutorial.  No other technology is required.  Links and instructions to install spaCy and Prodigy will be provided in advance of the tutorial, but installation can also be completed in the first few minutes.  
 
@@ -25,7 +25,7 @@ Finally, the integration of word vectors in spaCy is presented by neglecting the
 The third session will focus on Prodigy, which is an annotation tool used to train and evaluate spaCy language models.  Building on knowledge from the second session, participants will learn how to use Prodigy to quickly train new categories and entities on existing language models.  Prodigy utilizes a method called active learning in which human input and automated learning are both used to update the model.  Prodigy sorts the model's uncertain results and strategically asks for user input.  These annotations are then used to update the model on new categories or to improve accuracy with a specific task. In this session, participants will learn how to train custom language categories and entities using Prodigy.  
 Participants will leave the session with a clear end-to-end workflow from an initial text, to training, to the application of trained models.  Building on Unit II, we will use the new model to automatically update a TEI document with the new categories and data.   
 
-Finally, there will be time for a discussion that should point out the strengths and weaknesses of spaCy and prodigy for DH scholarship that were experienced during the tutorial. This will hopefully lead to specific use-cases that the participants can identify in their scholarly work.
+After the sessions, the instructors will open a group conversation about the strengths and weaknesses of spaCy and prodigy for DH scholarship based on the experiences in the tutorial. The discussion should allow participants to identify specific use-cases for their scholarly work.
 
 ### Tutorial instructors  
 
