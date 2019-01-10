@@ -30,7 +30,7 @@ concluding paragraph...
 ### Tutorial instructors  
 - Andrew Janco 
    -email: ajanco@haverford.edu
-   - Andrew Janco is the Digital Scholarship Librarian at Haverford College. He completed his Ph.D. at the University of Chicago. Andy has a passion for inquiry-driven and community-engaged digital projects.  He is the lead developer working on a digital archive and research application for the Groupo de Apoyo Mutuo, Guatemala's oldest human rights organization. He also works on applied machine learning for humanities and social science research.  
+   - Andrew Janco is the Digital Scholarship Librarian at Haverford College. He completed his Ph.D. in History at the University of Chicago and MS in Information Science at the University of Illinois. Andy has a passion for inquiry-driven and community-engaged digital projects.  He is the lead developer of a digital archive and research application for the Groupo de Apoyo Mutuo, Guatemala's oldest human rights organization.  Andy has experience organizing two previous workshops on spaCy and Prodigy.  He works on applied machine learning for research applications in humanities and social science scholarship.  
 
 - David Lassner
    -email: lassner@tu-berlin.de
