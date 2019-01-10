@@ -4,12 +4,14 @@ This half-day tutorial will introduce DH scholars to spaCy, a free and open-sour
 
 ### Target audience and expected number of participants
 
-This tutorial would appeal to a similar audience as attended DH2018's Distant Viewing and Word Vectors workshops.  Given attendance at those workshops, we expect around 25 participants will register.  Our participants will likely have some existing familiarity with natural language processing, text analysis and TEI. Participants will leave the tutorial with the skills needed to install dependencies, train a model on categories that are relevant to their research and run inference on a text. They may have heard of spaCy and are interested in learning how it differs from NLTK. 
+This tutorial would appeal to a similar audience as attended DH2018's Distant Viewing and Word Vectors workshops.  Given attendance at those workshops, we expect around 25 participants will register.  Our participants will likely have some existing familiarity with natural language processing, text analysis and TEI. Participants will leave the tutorial with the skills needed to install dependencies, train a model on categories that are relevant to their research and run inference on a text. They may have heard of spaCy and are interested in learning how it differs from NLTK.   
+
+Our instructors come from diverse backgrounds in Machine Learning and Literature, History and Information Science. This range of perspectives and use cases of spaCy will appeal to a large DH audience and help participants to connect what they've learned with their own research.  
 
 Each participant should bring a laptop computer to the tutorial.  No other technology is required.  Links and instructions to install spaCy and Prodigy will be provided in advance of the tutorial, but installation can also be completed in the first few minutes.  
 
 ### Brief outline
-Our team of instructors has divided the session into three fifty-minute sessions with ten-minute breaks in between.  
+Our tutorial is composed of three fifty-minute sessions with ten-minute breaks in between.  
 
 In the first session, we will discuss the installation and basic use of spaCy. We will introduce existing models and available tasks for language analysis. 
 
