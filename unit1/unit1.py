@@ -1,7 +1,7 @@
 import spacy
 
-bookLoc1 = 'C:\\Users\\Seth\\OneDrive\\xmascarol1.txt'
-bookLoc2 = 'C:\\Users\\Seth\\OneDrive\\xmascarol2.txt'
+bookLoc1 = 'xmascarol1.txt'
+bookLoc2 = 'xmascarol2.txt'
 
 
 nlp = spacy.load('en')
