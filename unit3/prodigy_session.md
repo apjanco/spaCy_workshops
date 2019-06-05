@@ -7,6 +7,9 @@ Participants will leave the session with a clear end-to-end workflow from an ini
   - Download the updated wheel
   - `pip install 'prodigy-x.x.x...-linux_x86_64.whl`
 - Quick and simple example, train a new category, train a new entity with an existing model.
+  - Generate our own JSONL patterns 
+  - import an existing [model](https://spacy.io/usage/models)
+  - Create a new dataset to store our annotations 
 
 - End goal: Automatically identify TEI-related entities and add them to unstructured text or TEI.
   - Read in a TEI document or plain text as input
