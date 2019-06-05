@@ -4,10 +4,15 @@ Participants will leave the session with a clear end-to-end workflow from an ini
 
 
 - Prodigy installation 
+  - Download the updated wheel
+  - `pip install 'prodigy-x.x.x...-linux_x86_64.whl'
 - Quick and simple example, train a new category, train a new entity with an existing model.
 
-- End goal: Automatically identify TEI-related entities and add them to unstructured text.
-
+- End goal: Automatically identify TEI-related entities and add them to unstructured text or TEI.
+  - Read in a TEI document or plain text as input
+  - NER with new model
+  - Write recognized entities to TEI 
+  
 - Paths in the [Prodigy workflow](https://github.com/apjanco/spaCy_DH2019_workshop/raw/master/unit3/prodigy_workflow.jpeg)
   - Improve existing pre-trained model 
   - Add new entity types to existing model 
