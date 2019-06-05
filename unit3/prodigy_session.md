@@ -5,4 +5,14 @@ Participants will leave the session with a clear end-to-end workflow from an ini
 
 - Prodigy installation 
 - Paths in the [Prodigy workflow](https://github.com/apjanco/spaCy_DH2019_workshop/raw/master/unit3/prodigy_workflow.jpeg)
-- introduction to transfer learning 
+  - Improve existing pre-trained model 
+  - Add new entity types to existing model 
+  - Train a new model from scratch 
+  - Collect more annotations 
+  - Write a patterns JSONL file 
+
+- ner.manual 
+- ner.teach
+- ner-batch-train
+- ner.train-curve 
+
