@@ -5,7 +5,7 @@ Participants will leave the session with a clear end-to-end workflow from an ini
 
 - Prodigy installation 
   - Download the updated wheel
-  - `pip install 'prodigy-x.x.x...-linux_x86_64.whl'
+  - `pip install 'prodigy-x.x.x...-linux_x86_64.whl`
 - Quick and simple example, train a new category, train a new entity with an existing model.
 
 - End goal: Automatically identify TEI-related entities and add them to unstructured text or TEI.
