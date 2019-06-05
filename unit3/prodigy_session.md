@@ -4,6 +4,7 @@ Participants will leave the session with a clear end-to-end workflow from an ini
 
 
 - Prodigy installation 
+- Quick and simple example, train a new category, train a new entity with an existing model.
 - Paths in the [Prodigy workflow](https://github.com/apjanco/spaCy_DH2019_workshop/raw/master/unit3/prodigy_workflow.jpeg)
   - Improve existing pre-trained model 
   - Add new entity types to existing model 
