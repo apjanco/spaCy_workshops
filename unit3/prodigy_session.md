@@ -6,23 +6,30 @@ Participants will leave the session with a clear end-to-end workflow from an ini
 - Prodigy installation 
   - Download the updated wheel
   - `pip install 'prodigy-x.x.x...-linux_x86_64.whl`
-- Quick and simple example, train a new category (ner), train a new category (textcat) with an existing model.
+- 
+
+- Quick project: [Text Classification](https://prodi.gy/docs/workflow-text-classification)
+  - 
+
+- Quick project: [Named Entity Recognition](https://prodi.gy/docs/workflow-named-entity-recognition)
   - Generate our own JSONL patterns 
   - import an existing [model](https://spacy.io/usage/models)
   - Create a new dataset to store our annotations 
-
-- End goal: Automatically identify TEI-related entities and add them to unstructured text or TEI.
-  - Read in a TEI document or plain text as input
-  - NER with new model
-  - Write recognized entities to TEI 
   
-- Paths in the [Prodigy workflow](https://github.com/apjanco/spaCy_DH2019_workshop/raw/master/unit3/prodigy_workflow.jpeg)
+- Paths in the [Prodigy NER workflow](https://github.com/apjanco/spaCy_DH2019_workshop/raw/master/unit3/prodigy_workflow.jpeg)
   - Improve existing pre-trained model 
   - Add new entity types to existing model 
   - Train a new model from scratch 
   - Collect more annotations 
   - Write a patterns JSONL file 
+  
+- Main Project: Automatically identify TEI-related entities and add them to unstructured text or TEI.
+  - Read in a TEI document or plain text as input
+  - NER with new model
+  - Write recognized entities to TEI 
+  
 
+Review of commands:
 - ner.manual 
 - ner.teach
 - ner-batch-train
