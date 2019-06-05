@@ -6,7 +6,7 @@ Participants will leave the session with a clear end-to-end workflow from an ini
 - Prodigy installation 
   - Download the updated wheel
   - `pip install 'prodigy-x.x.x...-linux_x86_64.whl`
-- Quick and simple example, train a new category, train a new entity with an existing model.
+- Quick and simple example, train a new category (ner), train a new category (textcat) with an existing model.
   - Generate our own JSONL patterns 
   - import an existing [model](https://spacy.io/usage/models)
   - Create a new dataset to store our annotations 
