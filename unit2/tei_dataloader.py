@@ -11,7 +11,7 @@ def config():
     }
 
 
-def load_files(online_ressource, debug=True):
+def load_files(online_ressource, debug=True, filter_=None):
     data = urlopen(online_ressource).read()
 
     zipdata = BytesIO()
@@ -20,6 +20,10 @@ def load_files(online_ressource, debug=True):
     zipped_ressource = ZipFile(zipdata)
 
     namelist = zipped_ressource.namelist()
+    
+    if filter_ is not None:
+        namelist = [fn for fn in namelist if filter_ not in fn]
+    
     if debug:
         namelist = random.sample(namelist, 50)
 
@@ -32,12 +36,22 @@ def dta_loader():
 
     online_ressource = "http://media.dwds.de/dta/download/dta_kernkorpus_belletristik_2018-10-17.zip"
     
-    for file_bytes in load_files(online_ressource, debug=config()["debug"]):
+    for file_bytes in load_files(online_ressource, debug=config()["debug"], filter_="/test/"):
         try:
             yield etree.XML(file_bytes)
         except etree.XMLSyntaxError:
             print("XMLSyntaxError")
 
+            
+def wilhelminus_loader():
+
+    online_ressource = "https://github.com/fbkarsdorp/meertens-song-collection/archive/DH2019.zip"
+    
+    for file_bytes in load_files(online_ressource, debug=config()["debug"]):
+        try:
+            yield etree.XML(file_bytes)
+        except etree.XMLSyntaxError:
+            print("XMLSyntaxError")
 
 def bi_loader():
     online_ressource = "https://www.berliner-intellektuelle.eu/berliner-intellektuelle-manuscripts.zip"
