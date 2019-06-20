@@ -36,7 +36,7 @@ def dta_loader():
 
     online_ressource = "http://media.dwds.de/dta/download/dta_kernkorpus_belletristik_2018-10-17.zip"
     
-    for file_bytes in load_files(online_ressource, debug=config()["debug"], filter_="/test/"):
+    for file_bytes in load_files(online_ressource, debug=config()["debug"]):
         try:
             yield etree.XML(file_bytes)
         except etree.XMLSyntaxError:
@@ -47,7 +47,7 @@ def wilhelminus_loader():
 
     online_ressource = "https://github.com/fbkarsdorp/meertens-song-collection/archive/DH2019.zip"
     
-    for file_bytes in load_files(online_ressource, debug=config()["debug"]):
+    for file_bytes in load_files(online_ressource, debug=config()["debug"], filter_="/test/"):
         try:
             yield etree.XML(file_bytes)
         except etree.XMLSyntaxError:
