@@ -10,14 +10,14 @@ def xml_to_jsonl(xml):
     for tag in standoff[1]:
         jsonl['spans'].append(tag)
     
-    #change key names begin to start, type to label
+    #change key names: begin to start, type to label
     for span in jsonl['spans']:
         span['start'] = span.pop('begin')
         span['label'] = span.pop('tag')
-
-    return  jsonl
-
-	
+        del span['attrib']
+        del span['depth']
+    return  json.dumps(jsonl)
+    #TODO standoff start and end values do not match spacy span values 	
 
 
 def jsonl_to_xml(jsonl):
