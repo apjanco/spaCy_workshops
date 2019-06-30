@@ -5,7 +5,15 @@ import standoffconverter # standoff_to_xml, tree_to_standoff
 def xml_to_jsonl(xml):
 	tree = etree.fromstring(xml)
     standoffconverter.tree_to_standoff(tree)
-    
+
+    #spacy tokenize standoff text
+    for token in doc:
+    	if toke is <tag>:
+    		start_char = token[i+1].start_char
+    	if token is </tag>:
+    		end_char = token[i-i].end_char
+    text = text between the tags
+       
     #re xml tag, type
 
 
