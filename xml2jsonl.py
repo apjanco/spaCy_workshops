@@ -3,28 +3,21 @@ import standoffconverter # standoff_to_xml, tree_to_standoff
 
 
 def xml_to_jsonl(xml):
-	tree = etree.fromstring(xml)
-    standoffconverter.tree_to_standoff(tree)
+    standoff = standoffconverter.tree_to_standoff(xml)
+    jsonl = {}
+    jsonl['text'] = standoff[0]
+    jsonl['spans'] = []
+    for tag in standoff[1]:
+        jsonl['spans'].append(tag)
+    
+    #change key names begin to start, type to label
+    for span in jsonl['spans']:
+        span['start'] = span.pop('begin')
+        span['label'] = span.pop('tag')
 
-    #spacy tokenize standoff text
-    for token in doc:
-    	if toke is <tag>:
-    		start_char = token[i+1].start_char
-    	if token is </tag>:
-    		end_char = token[i-i].end_char
-    text = text between the tags
-       
-    #re xml tag, type
+    return  jsonl
 
-
-	return jsonl 
-'''{
-    "text": "This is the kind of text, which includes tagged content inside it.",
-    "spans": [
-        {"start": 20, "end": 24, "label": "ner"},
-        {"start": 41, "end": 47, "label": "different_ner"}
-    ]
-}'''
+	
 
 
 def jsonl_to_xml(jsonl):
