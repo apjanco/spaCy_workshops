@@ -3,21 +3,30 @@ from urllib.request import urlopen
 from io import BytesIO
 from lxml import etree
 import random
+from os import path, makedirs
 
 
 def config():
     return {
-        "debug": False
+        "debug": False,
+        "cache": "downloads"
     }
 
 
-def load_files(online_ressource, debug=True, filter_=None):
-    data = urlopen(online_ressource).read()
-
-    zipdata = BytesIO()
-    zipdata.write(data)
-
-    zipped_ressource = ZipFile(zipdata)
+def load_files(ressource, debug=True, filter_=None):
+    
+    if not path.exists(config()["cache"]):
+        makedirs(config()["cache"])
+        
+    if not path.exists(path.join(config()["cache"], ressource["identifier"])):
+        
+        print("downloading {}".format(ressource["url"]))
+        with open(path.join(config()["cache"], ressource["identifier"]), "wb") as fout:
+            stream = urlopen(ressource["url"]).read()
+            fout.write(stream)
+            
+    
+    zipped_ressource = ZipFile(path.join(config()["cache"], ressource["identifier"]))
 
     namelist = zipped_ressource.namelist()
     
@@ -34,33 +43,43 @@ def load_files(online_ressource, debug=True, filter_=None):
 
 def dta_loader():
 
-    online_ressource = "http://media.dwds.de/dta/download/dta_kernkorpus_belletristik_2018-10-17.zip"
+    ressource = {
+        "url" : "http://media.dwds.de/dta/download/dta_kernkorpus_belletristik_2018-10-17.zip",
+        "identifier": "dta_kernkorpus_belletristik_2018-10-17.zip"
+    }
     
-    for file_bytes in load_files(online_ressource, debug=config()["debug"]):
+    for file_bytes in load_files(ressource, debug=config()["debug"]):
         try:
             yield etree.XML(file_bytes)
         except etree.XMLSyntaxError:
-            print("XMLSyntaxError")
+            pass
 
             
-def wilhelminus_loader():
+def wilhelmus_loader():
 
-    online_ressource = "https://github.com/fbkarsdorp/meertens-song-collection/archive/DH2019.zip"
+    ressource = {
+        "url" : "https://github.com/fbkarsdorp/meertens-song-collection/archive/DH2019.zip",
+        "identifier": "DH2019.zip"
+    }
     
-    for file_bytes in load_files(online_ressource, debug=config()["debug"], filter_="/test/"):
+    for file_bytes in load_files(ressource, debug=config()["debug"], filter_="/test/"):
         try:
             yield etree.XML(file_bytes)
         except etree.XMLSyntaxError:
-            print("XMLSyntaxError")
+            pass
 
 def bi_loader():
-    online_ressource = "https://www.berliner-intellektuelle.eu/berliner-intellektuelle-manuscripts.zip"
+    
+    ressource = {
+        "url": "https://www.berliner-intellektuelle.eu/berliner-intellektuelle-manuscripts.zip",
+        "identifier": "berliner-intellektuelle-manuscripts.zip"
+    }
 
-    for file_bytes in load_files(online_ressource, debug=config()["debug"]):
+    for file_bytes in load_files(ressource, debug=config()["debug"]):
         try:
             yield etree.XML(file_bytes)
         except etree.XMLSyntaxError:
-            print("XMLSyntaxError")
+            pass
 
 
 def extract_text_versions_from_etree(tree):
