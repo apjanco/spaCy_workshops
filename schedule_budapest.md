@@ -21,7 +21,7 @@
 14:00-15:15, Andy and David (short session)
 
 - pipelines
-- [multi-threading](https://spacy.io/usage/examples#multi-processing)
+- [multi-processing](https://spacy.io/usage/examples#multi-processing)
 - NLTK corpora
 - fetching other large existing corpora (DTA...) 
   
