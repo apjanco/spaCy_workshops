@@ -6,7 +6,7 @@
 - NER (w/ pre-trained models)
 - displacy
 - comparison of available spaCy models 
-- Adding models from spacy-stanfordnlp, fasttext vectors   
+- Adding models from spacy-stanfordnlp
 
 # Spacy & TEI
 11:15-13:00, David
@@ -17,27 +17,27 @@
    - NER
    - linguistic features
 
-# Pipelines and working with spaCy at scale
+# Rule-based matching and new pipeline components
 14:00-15:15, Andy and David (short session)
-
 - pipelines
-- [multi-processing](https://spacy.io/usage/examples#multi-processing)
-- NLTK corpora
-- fetching other large existing corpora (DTA...) 
-  
+- if time, fasttext, MUSE
+
 # Training custom models
 15:45-17:00, Andy
 
 - training data 
 - training spaCy models (ner, textcat, pos, dep, semantic similarity)
 - Prodigy
+- discussion
 
-# spaCy Universe
+# spaCy Universe & Community 
 9:00-10:45, Andy and David
 
+- spaCy IRL
+- course.spacy.io 
+- other learning resources 
 - scattertext (finding distinguishing terms in small-to-medium-sized corpora, and presenting them in a sexy, interactive scatter plot with non-overlapping term labels)
-- textpipe (metadata extraction)
 - Named Entity Linking
-- AllenNLP
 - spacy-pytorch-transformers & spacy pretrain
+
 - concluding discussion
