@@ -17,10 +17,11 @@
    - NER
    - linguistic features
 
-# Rule-based matching and new pipeline componsent
+# Rule-based matching and new pipeline components
 14:00-15:15, Andy and David (short session)
 - pipelines
-  
+- if time, fasttext, MUSE
+
 # Training custom models
 15:45-17:00, Andy
 
