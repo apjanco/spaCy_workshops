@@ -29,9 +29,12 @@
 - training spaCy models (ner, textcat, pos, dep, semantic similarity)
 - Prodigy
 
-# spaCy Universe
+# spaCy Universe & Community 
 9:00-10:45, Andy and David
 
+- spaCy IRL
+- course.spacy.io 
+- other learning resources 
 - scattertext (finding distinguishing terms in small-to-medium-sized corpora, and presenting them in a sexy, interactive scatter plot with non-overlapping term labels)
 - Named Entity Linking
 - AllenNLP
