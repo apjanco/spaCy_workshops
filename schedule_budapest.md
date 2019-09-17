@@ -28,6 +28,7 @@
 - training data 
 - training spaCy models (ner, textcat, pos, dep, semantic similarity)
 - Prodigy
+- discussion
 
 # spaCy Universe & Community 
 9:00-10:45, Andy and David
