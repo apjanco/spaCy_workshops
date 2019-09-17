@@ -37,9 +37,6 @@
 - other learning resources 
 - scattertext (finding distinguishing terms in small-to-medium-sized corpora, and presenting them in a sexy, interactive scatter plot with non-overlapping term labels)
 - Named Entity Linking
-- AllenNLP
 - spacy-pytorch-transformers & spacy pretrain
-- NLTK corpora
-- fetching other large existing corpora (DTA...) 
 
 - concluding discussion
