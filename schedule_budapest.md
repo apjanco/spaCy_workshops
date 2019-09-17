@@ -17,13 +17,9 @@
    - NER
    - linguistic features
 
-# Pipelines and working with spaCy at scale
+# Rule-based matching and new pipeline componsent
 14:00-15:15, Andy and David (short session)
-
 - pipelines
-- [multi-processing](https://spacy.io/usage/examples#multi-processing)
-- NLTK corpora
-- fetching other large existing corpora (DTA...) 
   
 # Training custom models
 15:45-17:00, Andy
@@ -36,8 +32,10 @@
 9:00-10:45, Andy and David
 
 - scattertext (finding distinguishing terms in small-to-medium-sized corpora, and presenting them in a sexy, interactive scatter plot with non-overlapping term labels)
-- textpipe (metadata extraction)
 - Named Entity Linking
 - AllenNLP
 - spacy-pytorch-transformers & spacy pretrain
+- NLTK corpora
+- fetching other large existing corpora (DTA...) 
+
 - concluding discussion
