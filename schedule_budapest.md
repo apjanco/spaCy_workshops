@@ -6,7 +6,7 @@
 - NER (w/ pre-trained models)
 - displacy
 - comparison of available spaCy models 
-- Adding models from spacy-stanfordnlp, fasttext vectors   
+- Adding models from spacy-stanfordnlp
 
 # Spacy & TEI
 11:15-13:00, David
