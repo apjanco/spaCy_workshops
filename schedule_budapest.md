@@ -1,11 +1,12 @@
 # Intro to spaCy
 9:00-10:45, Andy
 
-- Linguistic Features 
-- Rule-based Matching 
+- Python strings
+- Language objects, doc, sents, tokens
+- POS
 - NER (w/ pre-trained models)
 - displacy
-- comparison of available spaCy models 
+- available spaCy models 
 - Adding models from spacy-stanfordnlp
 
 # Spacy & TEI
@@ -19,7 +20,8 @@
 
 # Rule-based matching and new pipeline components
 14:00-15:15, Andy and David (short session)
-- pipelines
+- Rule-based matching 
+- adding/pipelines
 - if time, fasttext, MUSE
 
 # Training custom models
