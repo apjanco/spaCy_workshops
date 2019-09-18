@@ -1,3 +1,9 @@
+---
+layout: default
+title: Schedule
+nav_order: 0
+---
+
 Master Schedule
 
 # Monday
