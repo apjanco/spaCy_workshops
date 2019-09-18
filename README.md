@@ -56,8 +56,8 @@
 - discussion
 
 # Wednesday
-## 7 spaCy Universe
-9:00-10:45, Andy and David
+## 7 [spaCy Universe](https://spacy.apjan.co:8000/user/ajanco/tree/spaCy_workshops/Session_7) [(slides)](https://slides.com/andrewjanco/spacy-universe)
+(9:00-10:45, Andy and David
 - spaCy IRL
 - course.spacy.io 
 - other learning resources 
