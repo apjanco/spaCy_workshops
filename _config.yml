@@ -3,3 +3,6 @@ heading_anchors: true
 search_enabled: true
 logo: "https://explosion.ai/blog/img/introducing-spacy.jpg"
 color_scheme: "dark"
+aux_links:
+  "Workshop Notebooks":
+    - "https://spacy.apjan.co:8000"
