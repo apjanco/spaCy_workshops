@@ -1,5 +1,3 @@
-Schedule
-
 # Monday
 
 ## Opening session
