@@ -1,8 +1,4 @@
----
-layout: default
-title: Schedule
-nav_order: 1
----
+Schedule
 
 # Monday
 
