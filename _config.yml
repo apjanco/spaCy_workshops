@@ -1,1 +1,5 @@
 remote_theme: pmarsceill/just-the-docs
+heading_anchors: true
+search_enabled: true
+logo: "https://explosion.ai/blog/img/introducing-spacy.jpg"
+color_scheme: "dark"
