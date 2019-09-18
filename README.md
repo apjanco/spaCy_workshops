@@ -5,7 +5,7 @@ Schedule
 ## Opening session
 13:30-14:00
 
-## 1 Introduction to Python, Session 1
+## 1 [Introduction to Python, Session 1](https://spacy.apjan.co:8000/user/ajanco/tree/spaCy_workshops/Session_1)
 14:00-15:45 
 - Variables
 - Data Types
@@ -16,7 +16,7 @@ Schedule
 - Classes
 - Flow Control
 
-## 2 Introduction to Python, Session 2
+## 2 [Introduction to Python, Session 2](https://spacy.apjan.co:8000/user/ajanco/tree/spaCy_workshops/Session_2)
 16:15-18:00, Leonard
 - Input/Ouptut
 - Modules
@@ -26,7 +26,7 @@ Schedule
 
 # Tuesday 
 
-## 3 Intro to spaCy
+## 3 [Intro to spaCy](https://spacy.apjan.co:8000/user/ajanco/tree/spaCy_workshops/Session_3)
 9:00-10:45, Andy
 - Python strings
 - Language objects, doc, sents, tokens
@@ -36,7 +36,7 @@ Schedule
 - available spaCy models 
 - Adding models from spacy-stanfordnlp
 
-## 4 Spacy & TEI
+## 4 [Spacy & TEI](https://spacy.apjan.co:8000/user/ajanco/tree/spaCy_workshops/Session_4)
 11:15-13:00, David
 - standoff converter
 - adding extensions
@@ -44,13 +44,13 @@ Schedule
    - NER
    - linguistic features
 
-## 5 Rule-based matching and new pipeline components
+## 5 [Rule-based matching and new pipeline components](https://spacy.apjan.co:8000/user/ajanco/tree/spaCy_workshops/Session_5)
 14:00-15:15, Andy and David (short session)
 - Rule-based matching 
 - adding/pipelines
 - if time, fasttext, MUSE
 
-## 6 Training custom models
+## 6 [Training custom models](https://spacy.apjan.co:8000/user/ajanco/tree/spaCy_workshops/Session_6)
 15:45-17:00, Andy
 - training data 
 - training spaCy models (ner, textcat, pos, dep, semantic similarity)
