@@ -1,10 +1,10 @@
 # Monday
 
 ## Opening session
-13:30-14:00
+13:30-14:00, [Kari Tanácsterem (A039)](https://maps.app.goo.gl/DgMVzUeTE16AcGtv9)
 
 ## 1 [Introduction to Python, Session 1](https://spacy.apjan.co:8000/user/ajanco/tree/spaCy_workshops/Session_1)
-14:00-15:45 
+14:00-15:45 A330
 - Variables
 - Data Types
 - Operators
