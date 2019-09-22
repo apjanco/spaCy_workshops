@@ -18,8 +18,8 @@
 16:15-18:00, Leonard
 - Input/Ouptut
 - Modules
-- Numpy
 - LXML
+- Pandas
 - Plotting
 
 # Tuesday 
