@@ -22,6 +22,8 @@
 - Pandas
 - Plotting
 
+> [If you would like a free Prodigy license, please fill out the form here](https://prodi.gy/forms/research-license)
+
 # Tuesday 
 
 ## 3 [Intro to spaCy](https://spacy.apjan.co:8000/user/ajanco/tree/spaCy_workshops/Session_3)
