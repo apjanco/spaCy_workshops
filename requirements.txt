@@ -17,7 +17,6 @@ cryptography==2.7
 cycler==0.10.0
 cymem==2.0.2
 DAWG-Python==0.7.2
-de-core-news-sm==2.1.0
 decorator==4.4.0
 defusedxml==0.6.0
 descartes==1.1.0
