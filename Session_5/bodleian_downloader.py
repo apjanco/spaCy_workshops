@@ -46,9 +46,10 @@ def download(url, location, filename):
 
     if not path.exists(location):
         makedirs(location)
-    r = requests.get(url)
-    with open(path.join(location, filename+ ".xml"), "wb") as fout:
-        fout.write(r.content)
+    if not path.isfile(path.join(location, filename+ ".xml")):
+        r = requests.get(url)
+        with open(path.join(location, filename+ ".xml"), "wb") as fout:
+            fout.write(r.content)
 
 
 def get_file_descriptors(cache_dir="downloads"):
